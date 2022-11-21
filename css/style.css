@@ -3,4 +3,213 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
+.debug{
+    border: 2px dashed lightcoral;
+}
+
+
+/* inizio header */
+
+header{
+    position: fixed;
+    z-index: 30;
+}
+
+.container-header{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container-header-sinistro, .container-header-destro{
+    display: flex;
+    align-items: center;
+}
+
+.container-header-sinistro span, a{
+    padding: 0 10px;
+}
+
+.container-header-destro span{
+    padding: 0 10px;
+}
+
+button{
+    padding: 5px 15px;
+    background-color: #0061ff;
+    border: none;
+    color: white;
+    margin: 0 10px;
+}
+
+main{
+    padding-top: 80px;
+}
+
+/* inizio 1a section */
+
+.prima-section{
+    height: 600px;
+    background-color: #b4d0e7;
+}
+
+.container-prima-section{
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 50px;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.div-interno-prima-section{
+    width: 500px;
+    height: 300px;
+}
+
+.div-interno-prima-section div, button{
+    margin: 10px 0;
+    line-height: 25px;
+}
+
+.fa-arrow-down{
+    font-size: 50px;
+    position: absolute;
+    top: 530px;
+    left: 0px;
+}
+
+
+.container-prima-section img{
+    width: 800px;
+    position: absolute;
+    top: 225px;
+    right: 40px;
+    box-shadow: 0px 21px 13px -15px rgba(0,0,0,0.76);
+    
+}
+
+/* seconda section */
+
+.seconda-section{
+    width: 65%;
+    height: 1100px;
+    margin: 110px auto 0 auto;
+}
+
+.seconda-section h2{
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.fa-circle-dot{
+    color: #0061ff;
+    padding-right: 5px;
+}
+.fa-circle{
+    color: gray;
+    padding-right: 5px;
+}
+
+.span-padding{
+    padding-right: 50px;
+}
+
+.container-tabelle{
+    width: 100%;
+    /* height: 1300px; */
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.titolo-tabella{
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid gray;
+}
+
+.prezzi{
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.features{
+    line-height: 30px;
+    height: 200px;
+}
+
+.main-tabella{
+    padding: 20px;
+    height: 900px;
+    border: 1px solid gray;
+}
+
+.main-tabella span{
+    margin: 30px 0;
+}
+
+.tabella{
+    width: 30%;
+    height: 72%;
+}   
+
+.button-tabelle{
+    width: 90%;
+    margin: 30px 15px;
+}
+
+.fa-check{
+    color: #0061ff;
+    line-height: 50px;
+}
+
+hr{
+    margin: 40px 0;
+    width: 50px;
+    border-top: 1px solid gray;
+}
+
+.tabella-orizzontale{
+    margin-top: 50px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titolo-tabella-orizzontale{
+    text-align: center;
+}
+
+.main-tabella-orizzontale{
+    padding: 20px;
+    position: relative;
+}
+
+.main-tabella-orizzontale h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.main-tabella-orizzontale p{
+    margin-top: 40px;
+}
+
+.button-tabella-orizzontale{
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    transform: scale(1.4);
+}
+
+/* fine tabelle */
