@@ -419,26 +419,44 @@ hr{
     width: 65%;
     height: 80%;
     margin: 100px auto 0 auto;
+    
 }
 
 .riga-faq{
     display: inline-block;
     width: 80%;
+    padding-top: 60px;
+    height: 140px;
+    
 }
 
 .chevron-down{
     width: 19%;
     display: inline-block;
     text-align: center;
+    height: 140px;
+    padding-top: 60px;
 }
 
 .div-faq hr{
     width: auto;
+    margin: 0;
 }
 
 .div-faq h3{
     font-size: 30px;
 }
+
+.hidden-faq{
+    margin-top: 60px;
+    width: 100%;
+    display: none;
+}
+
+.riga-faq:hover .hidden-faq{
+    display: block;
+}
+
 /* fine faq */
 
 .container-footer{
